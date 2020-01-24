@@ -44,3 +44,13 @@ end
 def sum_array(array)
   array.inject(0){|total, element| total + element}
 end
+
+def add_s(array)
+  array.each do |i|
+    if i.index != 1
+      i.split
+      i.push("s")
+    end
+  end
+  return array
+end
