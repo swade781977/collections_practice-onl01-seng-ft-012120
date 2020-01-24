@@ -7,3 +7,8 @@ def sort_array_desc(array)
   a = array.sort{|a, b| -(a <=> b)}
   return a
 end
+
+def sort_array_char_count(array)
+  a = array.sort{|a, b| (a.length <=> b.length)}
+  return a
+end
