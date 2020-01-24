@@ -50,7 +50,7 @@ def add_s(array)
     if array.index(i) == 1
     else 
       a = i.split
-      a.push("s")
+      a.push(s)
       a.join
       i = a
     end
