@@ -28,3 +28,6 @@ def kesha_maker(array)
     i.split
     i[2] = "$"
     i.join
+  end
+  return array
+end
