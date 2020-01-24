@@ -35,4 +35,8 @@ def find_a(array)
   new_array = []
   array.each do |i|
     if i.start_with?("a") == true
-      new_array.push
+      new_array.push(i)
+    end
+  end
+  return new_array
+end
