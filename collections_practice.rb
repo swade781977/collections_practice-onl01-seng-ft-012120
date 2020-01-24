@@ -4,6 +4,6 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  a = array.reverse!
+  a = array.sort{|a, b| -()
   return a
 end
