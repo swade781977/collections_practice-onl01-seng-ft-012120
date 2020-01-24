@@ -47,7 +47,8 @@ end
 
 def add_s(array)
   array.each do |i|
-    if array[index] != 1
+    if 
+    else 
       i.split
       i.push("s")
     end
