@@ -25,9 +25,10 @@ end
 
 def kesha_maker(array)
   array.each do |i|
+    a = i.index
     i.split
     i[2] = "$"
-    i.join()
+    array[a] = i.join
   end
   return array
 end
