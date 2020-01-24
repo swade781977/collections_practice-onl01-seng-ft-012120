@@ -49,10 +49,7 @@ def add_s(array)
   array.each do |i|
     if array.index(i) == 1
     else 
-      a = i.split
-      a.push('s')
-      a.join
-      i = a
+      i.concat("s")
     end
   end
   return array
