@@ -1,3 +1,4 @@
 def sort_array_asc(array)
-  array.collect{array.sort}
+  i = array.sort
+  array.collect{i}
 end
